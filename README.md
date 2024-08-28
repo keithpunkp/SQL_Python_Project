@@ -35,6 +35,8 @@ Orders: order id, customer name, order date, product name, status
 Payments: payment_id, order_id, date, amount, method, status
 Order items: order items id, order id, product id, quantity, price
 
+
+
 Each column contains its own data type, users have to input the correct data type. For example, in customers name, users can only input characters, numbers are not allowed and not recognized as a correct input.
 
 
@@ -65,3 +67,6 @@ In the menu, users can type in 1-12 to use the functions, and 13 to exit the int
 # 5. Conclusion
 This project displayed the skills to build an interface and connecting inputs to the database. We have created useful functions that are realistic and can be implemented to real life situations. 
 
+# 6. Useful Links
+https://code.visualstudio.com/
+https://sqlitebrowser.org/dl/ 
