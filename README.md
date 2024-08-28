@@ -30,9 +30,13 @@ Kevin Chan, thanks a lot! He helped brainstorm many ideas and logic of the datab
 We created a total of 5 tables, including customers, products, orders, payment, and orders_by_item(as we found out there is a need to track order by order, and one order may contain one or more products). The tables include the following parameters in each column:
 
 Products: product id, category, name, price, stock quantity
-Customers: customer id, customer name, age, phone number, address, date                                   
+
+Customers: customer id, customer name, age, phone number, address, date 
+
 Orders: order id, customer name, order date, product name, status
+
 Payments: payment_id, order_id, date, amount, method, status
+
 Order items: order items id, order id, product id, quantity, price
 
 
