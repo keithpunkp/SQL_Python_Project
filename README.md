@@ -26,7 +26,6 @@ Kevin Chan, thanks a lot! He helped brainstorm many ideas and logic of the datab
 
 
 ## 3. Schema
-!['e-commerce system schema!'](/Users/Keith/Documents/JDE/ecommerce_system/schema of ecommerce sys.png)
 
 We created a total of 5 tables, including customers, products, orders, payment, and orders_by_item(as we found out there is a need to track order by order, and one order may contain one or more products). The tables include the following parameters in each column:
 
