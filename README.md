@@ -60,9 +60,10 @@ We created a total of 13 functions in the menu. The main functions are adding it
 11. Update Products' Quantity
 12. Product reviews
 13. Exit
+
 Choose an option: 
 
-In the menu, users can type in 1-12 to use the functions, and 13 to exit the interface.
+In the menu, users can type in 1-12 to use the functions, and 13 to exit the interface. For instance, users can type in 1 to add new customers to the database. Then, users have to enter name, age, phone number, and address. After inputting the data, it will return to the main menu and seek for the next step. To view the data added, users can type in 6 to have a look, or open the SQL Browser and click Browse Data.
 
 # 5. Conclusion
 This project displayed the skills to build an interface and connecting inputs to the database. We have created useful functions that are realistic and can be implemented to real life situations. 
