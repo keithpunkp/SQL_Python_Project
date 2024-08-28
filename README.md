@@ -22,7 +22,7 @@ Demonstrate how to add, view, update, and delete records within their system.
 
 
 ## 2. Collaborator(s)
-Kevin Chan, thanks a lot! He helped brainstorm many ideas and logic of the database.
+Kevin Chan, thanks a lot! He helped brainstorm many ideas and logic of the database, and contributed a lot too.
 
 
 ## 3. Schema
@@ -64,4 +64,8 @@ In the menu, users can type in 1-12 to use the functions, and 13 to exit the int
 
 # 5. Conclusion
 This project displayed the skills to build an interface and connecting inputs to the database. We have created useful functions that are realistic and can be implemented to real life situations. 
+
+# 6. Useful Links
+https://code.visualstudio.com/
+https://sqlitebrowser.org/dl/ 
 
