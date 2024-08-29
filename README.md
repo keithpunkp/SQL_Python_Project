@@ -30,10 +30,16 @@ Kevin Chan, thanks a lot! He helped brainstorm many ideas and logic of the datab
 We created a total of 5 tables, including customers, products, orders, payment, and orders_by_item(as we found out there is a need to track order by order, and one order may contain one or more products). The tables include the following parameters in each column:
 
 Products: product id, category, name, price, stock quantity
-Customers: customer id, customer name, age, phone number, address, date                                   
+
+Customers: customer id, customer name, age, phone number, address, date 
+
 Orders: order id, customer name, order date, product name, status
+
 Payments: payment_id, order_id, date, amount, method, status
+
 Order items: order items id, order id, product id, quantity, price
+
+
 
 Each column contains its own data type, users have to input the correct data type. For example, in customers name, users can only input characters, numbers are not allowed and not recognized as a correct input.
 
@@ -58,9 +64,10 @@ We created a total of 13 functions in the menu. The main functions are adding it
 11. Update Products' Quantity
 12. Product reviews
 13. Exit
+
 Choose an option: 
 
-In the menu, users can type in 1-12 to use the functions, and 13 to exit the interface.
+In the menu, users can type in 1-12 to use the functions, and 13 to exit the interface. For instance, users can type in 1 to add new customers to the database. Then, users have to enter name, age, phone number, and address. After inputting the data, it will return to the main menu and seek for the next step. To view the data added, users can type in 6 to have a look, or open the SQL Browser and click Browse Data.
 
 # 5. Conclusion
 This project displayed the skills to build an interface and connecting inputs to the database. We have created useful functions that are realistic and can be implemented to real life situations. 
@@ -68,4 +75,7 @@ This project displayed the skills to build an interface and connecting inputs to
 # 6. Useful Links
 https://code.visualstudio.com/
 https://sqlitebrowser.org/dl/ 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 477aba7ced048424ef4416efa4dd512fefbab326
